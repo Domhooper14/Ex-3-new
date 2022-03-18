@@ -1,0 +1,35 @@
+header {
+    background-color: #D9D7DD;
+    color: white;
+    padding: 30px;
+    grid-area: header;
+    }
+    nav {
+    background-color: #B07BAC;
+    grid-area: nav;
+    }
+    main {
+    background-color: #DBF9F4;
+    padding: 30px;
+    grid-area: main;
+    }
+    aside {
+    background-color: #B07BAC;
+    grid-area: aside;
+    }
+    footer {
+    background-color: #E6FDFF;
+    grid-area: footer;
+    }
+    body { display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: auto;
+    grid-template-areas:  "header header header"
+    "nav main aside"
+    "nav main aside"
+    "footer footer footer"
+
+    
+    
+    
+    }
