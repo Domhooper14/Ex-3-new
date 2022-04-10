@@ -1,9 +1,14 @@
-
-    body {
+body {
         background-image:url('Galaxy3.jpg');
         background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    
-    
+    background-size: cover;
     }
+.central {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 200px;
+border: 3px;
+}
