@@ -4,14 +4,6 @@ header {
     padding: 30px;
     grid-area: header;
     }
-    nav {
-        display: block;
-        background-color: #B07BAC;
-        position: fixed;
-        top: 0;
-        left: 50%;
-        width: 50%;
-        height: 100vh;}
     main {
     background-color: #DBF9F4;
     padding: 30px;
@@ -33,6 +25,13 @@ header {
     "main main main"
 
     }
+    nav {
+        background-color: #B07BAC;
+        position: fixed;
+        top: 0;
+        left: 50%;
+        width: 50%;
+        height: 100vh;}
 
     .shownav {
         height: 0.8em;
@@ -51,7 +50,8 @@ width: 1.25em;
 margin-top: 0.3em;
 border-top: 0.2em solid #fff;
  }
- #Nav .on {display: block;}
- #Nav .off{display: none;}
- #Nav:target .on{display: none;}
- #Nav:target .off{display: block;}
+#clicked .on {display: block;}
+#clicked .off {display: none;}
+#clicked:target .on {display: none;}
+#clicked:target .off {display: block;}
+
