@@ -58,8 +58,3 @@ border-top: 0.2em solid #fff;
 #clicked:target .on {display: none;}
 #clicked:target .off {display: block;}
 
-.foot {
-height: auto;
-width: 100px;
-object-fit: fill;
-}
