@@ -14,15 +14,18 @@ header {
     grid-area: aside;
     }
     footer {
+    padding: 10px;
     background-color: #E6FDFF;
     grid-area: footer;
     }
     body { display: grid;
     grid-template-columns: 10% 80% 10%;
-    grid-template-rows: auto;
+    grid-template-rows: 20% 30% 40% 10%;
     grid-template-areas:  "header header header"
     "aside aside aside"
     "main main main"
+    "footer footer footer"
+    
 
     }
     nav {
@@ -55,3 +58,8 @@ border-top: 0.2em solid #fff;
 #clicked:target .on {display: none;}
 #clicked:target .off {display: block;}
 
+.foot {
+height: auto;
+width: 100px;
+object-fit: fill;
+}
